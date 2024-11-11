@@ -1,8 +1,14 @@
+import Toggle from "./Toogle";
+
 function App() {
    return (
-      <>
-         <h1>Hello World</h1>
-      </>
+      <div>
+         <Toggle>
+            <Toggle.Active>🟢</Toggle.Active>
+            <Toggle.ToggleButton />
+            <Toggle.Inactive>🔴</Toggle.Inactive>
+         </Toggle>
+      </div>
    );
 }
 
